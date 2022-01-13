@@ -111,7 +111,7 @@ header ul li a:hover {
     position: relative;
     width: 200pxpx;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
@@ -132,9 +132,18 @@ header ul li a:hover {
 .horiseon {
     background-image: url(../digital-marketing-meeting.jpg);
     display: flex;
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+    width: 400px;
+    height: 300px;
+}
+
+.best-travel-deals {
+    background-image: url(../Best\ Travel\ Deals\ .png);
+    display: flex;
     grid-column: 2/ span 1;
     grid-row: 2/ span 1;
-    width: 500px;
+    width: 400px;
     height: 300px;
 }
 
